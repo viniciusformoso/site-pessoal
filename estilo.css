@@ -1,0 +1,65 @@
+:root{
+    --fundo: #0057ff;
+    --gradientedefundo: linear-gradient(90deg, rgb(0, 0, 0) 0%, #097a57 35%, #079b7b 100%);
+}
+    
+@font-face 
+        {font-family:'SAO';
+        src: url(fontes/SAOUIWelcome-Regular.otf) format('opentype'); }
+    
+body
+        {font-family: 'SAO', Times, serif;
+        background: var(--gradientedefundo); 
+        color: #fff;
+        width: 70%;
+        margin: auto;
+        font-size: 1.3rem}
+    
+h1, h2
+        {font-family: 'SAO', Times, serif;
+        text-align: center;}
+    
+h1 
+        {background-color: black;
+        text-align: center;}
+    
+img
+        {margin: auto;        
+        width: 40%;
+        display: block;}
+    
+
+button 
+        {margin: 0 auto;
+        display: inline-block;
+        width: 50%;
+        border: none;
+        padding: 22px;
+        background-color: #fff;
+        border-radius: 100px;
+        font-size: large;}
+    
+    button:hover{opacity:0.8;}
+
+header nav menu li 
+    {display: inline-block;
+    margin: 1rem;
+    padding: 1.25rem;
+    font-size: large;
+    color: gold;
+    text-align: center;
+    text-decoration: none;}
+
+
+button, a 
+{color: gold;
+text-transform: uppercase;}
+
+
+menu 
+{background-color: #079b7b;
+margin: auto;}
+
+form {text-align: center;}
+
+footer {text-align: center;}
