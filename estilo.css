@@ -1,7 +1,7 @@
 :root {
-    --gradientedefundo: linear-gradient(90deg, rgb(0, 0, 0) 0%, #097a57 35%, #079b7b 100%); 
-    font-family:'SAO';
-        font-size: 1.3rem;}
+    --gradientedefundo: linear-gradient( rgb(0, 0, 0) 0%, rgb(40, 0, 0) 35%, rgb(7, 155, 123) 100%); 
+        font-family: 'SAO', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.2rem;}
     
 @font-face 
         {font-family:'SAO';
@@ -13,20 +13,23 @@ body
         width: 70%;
         margin: auto;}
     
-h1, h2
+h1, h2, h3
         {text-align: center;}
     
-h1 
-        {background-color: black;
-        text-align: center;}
+h1      {text-align: center;}
+
+h2 {padding: 0.1rem;}
+
+p {padding: 0.1rem;}
     
 img
         {margin: auto;        
         width: 40%;
         display: block;}
+
     
 menu 
-        {background-color: #079b7b;
+        {background-color: gold;
         margin: auto;
         text-align: center;
         padding: 0.5rem;}
@@ -43,14 +46,25 @@ nav menu li
 
 
 menu li a 
-{color: gold;
+{color: rgb(0, 0, 0);
 text-transform: uppercase;
 text-align: center;
+text-decoration: none;
 padding: 1.5rem;}
+
+address ul li a {text-decoration: none;
+display: flex;}
 
 a {text-align: center;
 color: yellow;}
 
+a:hover {color: rgb(255, 255, 255);}
+
 form {text-align: center;}
 
-footer {text-align: center;}
+footer {display: block;
+        text-align: center;}
+
+.container{     display: flex;
+                align-items: center;
+                margin: 0 auto;}
